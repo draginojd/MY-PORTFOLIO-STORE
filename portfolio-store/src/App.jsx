@@ -2,6 +2,7 @@
 import './App.css';
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Navbar from "./Navbar"
 
 function App() {
   const sendPostRequest = async () => {
@@ -15,7 +16,9 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
     <header className="App-header">
+       
     
     <button onClick={sendPostRequest}>Send POST Request</button>
     
