@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 function App() {
   const sendPostRequest = async () => {
     try {
-      const response = await axios.post("http://localhost:4000");
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/`);
       console.log(response.data);
     } catch (error) {
       console.error("There was and ERROR!" , error);
