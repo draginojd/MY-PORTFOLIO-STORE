@@ -1,8 +1,7 @@
 
 import './App.css';
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import Navbar from "./Navbar"
+import axios from 'axios';
+import Navbar from "./Navbar";
 
 function App() {
   const sendPostRequest = async () => {
