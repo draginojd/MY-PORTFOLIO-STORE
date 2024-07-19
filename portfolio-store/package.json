@@ -15,9 +15,9 @@
     "web-vitals": "^4.2.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+        "start": "node set-env.js && react-scripts start",
+    "build": "node set-env.js && react-scripts build",
+    "test": "node set-env.js && react-scripts test",
     "eject": "react-scripts eject"
   },
   "engines": {
