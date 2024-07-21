@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo-container">
-        <img src="/logo.svg" alt="" className="logo" width="50" height="50"/>
+        <img src="/logo1.svg" alt="" className="logo" width="50" height="50"/>
       </div>
       <div className="shopping-cart-container">
         <img src="/shopping-cart.svg" alt="shopping cart icon" className="shopping-cart" width="50" height="50"/>
@@ -20,27 +20,34 @@ function Navbar() {
   
         <div className="hamburger-menu">
           <div className="hamburger-menu-link-container">
-           <img src="#" alt="home img" className="hambruger-menu-home" />   <a href="#" className="hamburger-menu-link">HOME</a>
+            <img src="/car-sale.svg" alt="home img" className="hamburger-menu-home" />   
+            <a href="#" className="hamburger-menu-link">BUY A CAR</a>
           </div> 
           <div className="hamburger-menu-link-container">
-            <img src="#" alt="home img" className="hambruger-menu-home" />   <a href="#" className="hamburger-menu-link">HOME</a>
+            <img src="/account.svg" alt="home img" className="hamburger-menu-home" />   
+            <a href="#" className="hamburger-menu-link">PROFILE</a>
           </div> 
           <div className="hamburger-menu-link-container">
-            <img src="#" alt="home img" className="hambruger-menu-home" />   <a href="#" className="hamburger-menu-link">HOME</a>
+            <img src="/chat.svg" alt="home img" className="hamburger-menu-home" />   
+            <a href="#" className="hamburger-menu-link">CHATS</a>
           </div> 
           <div className="hamburger-menu-link-container">
-            <img src="#" alt="home img" className="hambruger-menu-home" />   <a href="#" className="hamburger-menu-link">HOME</a>
+            <img src="/about.svg" alt="home img" className="hamburger-menu-home" />   
+            <a href="#" className="hamburger-menu-link">ABOUT US</a>
           </div> 
           <div className="hamburger-menu-link-container">
-            <img src="#" alt="home img" className="hambruger-menu-home" />   <a href="#" className="hamburger-menu-link">HOME</a>
+            <img src="/headset.svg" alt="home img" className="hamburger-menu-home" />   
+            <a href="#" className="hamburger-menu-link">SUPPORT</a>
           </div> 
           <div className="hamburger-menu-link-container">
-            <img src="#" alt="home img" className="hambruger-menu-home" />   <a href="#" className="hamburger-menu-link">HOME</a>
-          </div> 
-          <div className="hamburger-menu-link-container">
-            <img src="#" alt="home img" className="hambruger-menu-home" />   <a href="#" className="hamburger-menu-link">HOME</a>
+            <img src="/gear.svg" alt="home img" className="hamburger-menu-home" />   
+            <a href="#" className="hamburger-menu-link">SETTINGS</a>
         </div> 
-      
+        <div className="hamburger-menu-link-container">
+            <img src="/login.svg" alt="home img" className="hamburger-menu-home" />   
+            <a href="#" className="hamburger-menu-link">LOG IN</a>
+        </div> 
+
 
         </div>
       </div>
