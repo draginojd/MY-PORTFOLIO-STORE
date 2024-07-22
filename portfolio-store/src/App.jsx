@@ -1,6 +1,5 @@
-import React from 'react'; // Add necessary imports
+import React from 'react';
 import './App.css';
-// import { useEffect, useState } from 'react'; // Comment out if not used
 import axios from 'axios';
 import Navbar from './Navbar';
 
