@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import axios from 'axios';
 import Navbar from './Navbar';
+import LandingPage from './LandingPage';
 
 function App() {
   const sendPostRequest = async () => {
@@ -16,7 +17,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <button onClick={sendPostRequest}>Send Post Request</button>
+      <LandingPage />
+      //<button onClick={sendPostRequest}>Send Post Request</button>
     </div>
   );
 }
