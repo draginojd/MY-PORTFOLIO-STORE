@@ -106,9 +106,9 @@ margin-top: 6rem;
 }
 
 .hamburger-menu-link-container{
-  margin-top: 2vh;
+  margin-top: 0.5vh;
   width: auto;
-  height: 4.5rem;
+  height: 3.5rem;
   justify-content: center; /* Center horizontally */
   align-items: center;    /* Center vertically */
 }
