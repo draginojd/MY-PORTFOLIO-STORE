@@ -215,6 +215,18 @@ text-decoration: underline;
   justify-content: center;
   border-radius: 20px;
   box-shadow: 0 5px 20px 1px black;
+  padding: 1px;
+}
+
+.connect-link {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  color: aliceblue;
 }
 
 .explore-button{
@@ -228,13 +240,6 @@ text-decoration: underline;
   text-decoration: none;
   text-align: center;
   box-shadow: 0 1vh 20px 5px black;
-}
-
-.connect-link{
-  margin-top: 2rem;
-  text-decoration: none;
-  font-weight:400;
- color: aliceblue;
 }
 
 .explore-link{
