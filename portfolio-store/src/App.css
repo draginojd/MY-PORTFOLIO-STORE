@@ -75,6 +75,7 @@
 
 .hamburger-menu{
   display: none;
+  
 }
 
 #burger-checkbox:checked ~ .hamburger-menu {
@@ -83,34 +84,36 @@
   flex-direction: column;
   padding: 0;
   margin: 0;
-  top: -1rem;
+  top: 5rem;
   width: 379px;
-  height: 100vh;
+  height: 75vh;
   left: -20rem;
-  background-color: rgb(255, 255, 255);
-  opacity: 0.8;
-
+  overflow-y: none;
 }
 
 #burger-checkbox:checked ~ .hamburger-menu .hamburger-menu-link{
   margin: 0;
   padding: 0;
   width: 60%;
+  height: auto;
   left: 7rem;
   position: absolute;
+  
  
 }
 
 #burger-checkbox:checked ~ .hamburger-menu .hamburger-menu-link-container:first-of-type{
-margin-top: 6rem;
+margin-top: 0rem;
 }
 
 .hamburger-menu-link-container{
-  margin-top: 0.5vh;
+
   width: auto;
-  height: 3.5rem;
+  height: 100%;
   justify-content: center; /* Center horizontally */
   align-items: center;    /* Center vertically */
+
+ 
 }
 
 #burger-checkbox:checked:after{
@@ -144,9 +147,6 @@ margin-top: 6rem;
  
 }
 
-.hambruger-menu-home{
-  background-color: blue;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
