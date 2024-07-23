@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Navbar />
       <LandingPage />
-      //<button onClick={sendPostRequest}>Send Post Request</button>
+
     </div>
   );
 }
