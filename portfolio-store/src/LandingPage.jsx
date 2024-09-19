@@ -6,7 +6,7 @@ import axios from "axios";
 function LandingPage() {
     return(
         <div className="landing-page-container">
-            <img src="/background2.png" alt="background" className="background1"/>
+            
             <h1 className="welcome">WELCOME TO MY<br/><h2>PORTFOLIO STORE</h2></h1>
             <div className="linkedin-container">
                 <div className="linkedin-picture">
